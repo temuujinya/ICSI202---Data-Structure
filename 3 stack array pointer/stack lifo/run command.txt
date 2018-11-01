@@ -1,0 +1,1 @@
+g++ -c stackarray.cpp -o stackarray.o && g++ stackmain.cpp stackarray.o -o stackarray.exe && ./stackarray.exe

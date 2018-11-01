@@ -1,0 +1,1 @@
+g++ -c stackpointer.cpp -o stackpointer.o && g++ stackmain.cpp stackpointer.o -o stackpointer.exe && ./stackpointer.exe

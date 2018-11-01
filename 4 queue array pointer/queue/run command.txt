@@ -1,0 +1,1 @@
+ g++ -c queueArray.cpp -o queueArray.o && g++ queuemain.cpp queueArray.o -o queueArray.exe && ./queueArray.exe

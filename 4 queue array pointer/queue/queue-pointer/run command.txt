@@ -1,0 +1,1 @@
+g++ -c queuePointer.cpp -o queuePointer.o && g++ queuemain.cpp queuePointer.o -o queuePointer.exe && ./queuePointer.exe
