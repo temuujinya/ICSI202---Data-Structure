@@ -92,7 +92,7 @@ void insert_element(string newWord, string *hashTable, int &length)
                         break;
                     }
                 }
-                //Enen total baih hregtei umuu        
+                //TODO: Enen total baih hregtei umuu        
                 if(s==0){
                     for(int i=0; i<length; i++){
                         if(hashTable[i].compare(emptySymbol)==0){
