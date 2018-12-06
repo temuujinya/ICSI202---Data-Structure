@@ -64,6 +64,7 @@ int main()
 }
 
 
+//TODO: min iig ni 100 gaar avaad ter eleentiin hashlana 
 int hashTemuujin(string newWord, string *hashTable, int &length){
     int wordLength = newWord.length();
     int hashedIndex = 0;
@@ -73,6 +74,8 @@ int hashTemuujin(string newWord, string *hashTable, int &length){
     }
     return hashedIndex %= length-1;
 }
+
+
 void insert_element(string newWord, string *hashTable, int &length)
 {
 
@@ -94,7 +97,7 @@ void insert_element(string newWord, string *hashTable, int &length)
                 }
                 //TODO: Enen total baih hregtei umuu        
                 if(s==0){
-                    for(int i=0; i<length; i++){
+                    for(int i=0; i<hashedIndex; i++){
                         if(hashTable[i].compare(emptySymbol)==0){
                             hashTable[i] = newWord;
                             break;
