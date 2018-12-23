@@ -36,6 +36,7 @@ void print(int *arr, int length){
         return;
     }
     print(arr,length-1);
+    // minus one because length starts from 1 but array 0
     cout<<arr[length-1]<<" ";
     
     // int index=0;
