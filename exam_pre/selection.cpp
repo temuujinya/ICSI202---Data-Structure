@@ -32,7 +32,7 @@ void swap(int *arr, int oldIndex, int newIndex){
 void print(int *arr, int length){
     
     // TODO: recursive bolgood uz
-    if(length<=0){
+    if(length==0){
         return;
     }
     print(arr,length-1);
